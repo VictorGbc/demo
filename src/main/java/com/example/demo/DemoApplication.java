@@ -10,7 +10,8 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	public void showMessage() {
-		System.out.println("the Message!");
+
+	public void isOut() {
+		return true;
 	}
 }
